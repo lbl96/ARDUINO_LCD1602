@@ -1,0 +1,24 @@
+void setup()
+{
+
+  lcd.begin(16,2);
+  lcd.clear();
+}
+
+void loop() {
+ //lcd.setCursor(0,4);
+// lcd.print("LBL96");
+ lcd.setCursor(1,7);
+ lcd.print("LBL96");
+ delay(10000);
+  lcd.clear();
+  lcd.setCursor(0,10);
+ lcd.print("AT MEGA 328P");
+ delay(10000);
+}
+
+//void loop() {
+// lcd.setCursor(0,4);
+//lcd.print("AT MEGA 328P");
+// delay(10000);
+//}
